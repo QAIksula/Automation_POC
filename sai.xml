@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" parallel="none">
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+	 <!-- <class name="com.Visionart.negativetestcase.Admin" />  -->
+		 	<!-- <class name="com.Visionart.negativetestcase.Register" /> -->
+			<!-- <class name="com.Visionart.negativetestcase.Login" /> --> 
+			<!--    <class name="com.Visionart.negativetestcase.OrderOtherProducts" />   -->
+			<!--    <class name="com.Visionart.negativetestcase.Orderpage2" />   -->
+	 	<!-- <class name="com.Visionart.negativetestcase.MyAccount" /> -->
+			 <class name="com.Visionart.logic1.MyAccount" />
+		</classes> 
+		 </test>
+</suite>
